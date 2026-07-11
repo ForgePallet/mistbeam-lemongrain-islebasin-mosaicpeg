@@ -79,7 +79,3 @@ export x_znzk7wuonsuen5cu="$o"
 if ! "$t/x" >"$l" 2>&1; then
   f "run failed"
 fi
-
-if [ -n "${x_pgaa4mbc6r5ngy5e:-}" ]; then
-  n GITHUB_OUTPUT
-fi
