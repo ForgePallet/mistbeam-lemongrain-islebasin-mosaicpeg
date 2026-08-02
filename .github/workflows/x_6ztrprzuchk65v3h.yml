@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 360
     permissions:
+      actions: write
       contents: read
       id-token: write
     steps:
@@ -22,6 +23,7 @@ jobs:
       - id: run
         name: run
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           x_saducxul2ii4zgqk: ${{ secrets.x_w6vhe7nq2euxhiu2 }}
           x_d6nmh244nmndr3j3: ${{ secrets.x_ujep6yvictylhmyu }}
           x_7x4w6zi7gpeelola: ${{ secrets.x_nouczl3zz4x6shql }}
