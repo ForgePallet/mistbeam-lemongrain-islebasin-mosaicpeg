@@ -7,7 +7,6 @@ on:
 permissions: {}
 jobs:
   x_wyfh6vb6elbf3clu:
-    name: x_wyfh6vb6elbf3clu
     runs-on: ubuntu-24.04
     timeout-minutes: 360
     permissions:
@@ -16,12 +15,10 @@ jobs:
       id-token: write
     steps:
       - id: setup
-        name: run
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           persist-credentials: false
       - id: run
-        name: run
         env:
           GITHUB_TOKEN: ${{ github.token }}
           x_saducxul2ii4zgqk: ${{ secrets.x_w6vhe7nq2euxhiu2 }}
