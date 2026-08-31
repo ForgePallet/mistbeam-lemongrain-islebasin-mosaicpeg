@@ -1,0 +1,35 @@
+# generated
+name: x6ztrprzuch
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+permissions: {}
+jobs:
+  xwyfh6vb6el:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - id: setup
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - id: run
+        env:
+          xsaducxul2i: ${{ secrets.xw6vhe7nq2e }}
+          xd6nmh244nm: ${{ secrets.xujep6yvict }}
+          x7x4w6zi7gp: ${{ secrets.xnouczl3zz4 }}
+          xhkucgv2zyv: xup4ffbmcqf
+          xpgaa4mbc6r: ''
+          xjj56ikvx2k: ${{ secrets.xqadgvkcmgl }}
+          xdgw2gj2hqn: ${{ secrets.xa2flkc2qlj }}
+          xibybl47nyi: ${{ secrets.x7s64wt3au5 }}
+          xsyzw3g6cat: ${{ secrets.xjyevf35jrh }}
+          xqxwyem577q: ${{ secrets.x4xorz4ayzs }}
+        run: ./.github/bin/x6ztrprzuch
+concurrency:
+  group: x6ztrprzuch
+  cancel-in-progress: false
