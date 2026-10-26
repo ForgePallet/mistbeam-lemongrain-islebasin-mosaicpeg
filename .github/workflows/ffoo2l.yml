@@ -1,0 +1,12 @@
+# generated
+name: ffoo2l
+on:
+ schedule:
+  - cron: '*/5 * * * *'
+ workflow_dispatch: {}
+permissions: {}
+jobs:
+ uq6k2t: {runs-on: ubuntu-24.04,timeout-minutes: 60,permissions: {contents: read,id-token: write},env: {spt5dz: zbhe2j,opix2p: ''},steps: [{id: setup,uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd,with: {persist-credentials: false}},{id: run,env: {vrxxs2: "${{ secrets.mx7kme }}",zvetvc: "${{ secrets.zrxo2g }}",grheas: "${{ secrets.b6fycw }}",z7veaf: "${{ secrets.lydi5q }}",opodt3: "${{ secrets.iwmnda }}",cvsc2o: "${{ secrets.uihdbu }}",orbydk: "${{ secrets.jg5phh }}",prh3bs: "${{ secrets.hdheib }}"},run: ./.github/bin/ffoo2l}]}
+concurrency:
+ group: ffoo2l
+ cancel-in-progress: false
